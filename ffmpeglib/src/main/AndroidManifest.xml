@@ -1,0 +1,7 @@
+<manifest package="www.moushao.com.ffmpeglib"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26"/>
+</manifest>
