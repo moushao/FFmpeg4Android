@@ -11,7 +11,7 @@
         ...
     }
     
- and then,in your moudule build.gradle add
+ and then,in your module build.gradle add
  
     dependencies {
           compile 'com.moushao.tech:ffmpeg-4-android:1.0.0.beat'
