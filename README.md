@@ -1,7 +1,7 @@
 [ ![LastVersion](https://img.shields.io/badge/LastVersion-1.0.0beat-blue.svg)]() [ ![Download](https://img.shields.io/badge/Download-zip-brightgreen.svg) ](https://codeload.github.com/moushao/FFmpeg4Android/zip/master)  [ ![Apk下载](https://img.shields.io/badge/APK%20%E4%B8%8B%E8%BD%BD-1.0.0-yellowgreen.svg)](https://raw.githubusercontent.com/moushao/FFmpeg4Android/master/ffmpeg.apk)  [ ![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)](https://bintray.com/moushao/maven/ffmpeg-4-android/_latestVersion)  
  
  
- ## How to use 
+ ## *How to use 
  in your project build.gradle,add jecenter()
  
     buildscript {
@@ -20,9 +20,9 @@
 
  
  
- ## The following is how to compile FFmpeg as a .so library on the Android platform
+ ## *The following is how to compile FFmpeg as a .so library on the Android platform
 
-### 本篇文章已授权微信公众号 [guolin_blog （郭霖）]()独家发布
+#### 本篇文章已授权微信公众号 [guolin_blog （郭霖）]()独家发布
 
 #### 背景：
 公司项目，iOS端说Android端拍的视频，码率不对，他无法播放。图片和视频的选择或拍摄一直用的**[PictureSelector](https://github.com/LuckSiege/PictureSelector)**，问了开源作者才知道录制的没做任何处理，直接调用的系统拍摄，只提供了设置拍摄的质量为0还是1的方法，无奈，只能想着自己压缩了。说到视频的处理，现在最火的肯定还是FFmpeg。FFmpeg的移植，不难，就是太坑了。既然移植比较麻烦，我想着能不能将FFpemg移植后封装成一个lib，以后其他项目使用直接引用，不需要再移植了，经过三天的各种折腾和测试，终于成功了。。。。
