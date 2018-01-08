@@ -20,7 +20,8 @@
 
  
  
- ## 以下内容为FFmpeg在Android平台的移植教程
+ ## The following is how to compile FFmpeg as a .so library on the Android platform
+
 ### 本篇文章已授权微信公众号 [guolin_blog （郭霖）]()独家发布
 
 #### 背景：
