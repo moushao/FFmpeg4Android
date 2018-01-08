@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
 
 android {
     compileSdkVersion 26
@@ -28,9 +30,12 @@ android {
         main {
             jniLibs.srcDirs = ['libs']
             jniLibs.srcDirs = ['src/main/libs']
-            jni.srcDirs=[]
+            jni.srcDirs = []
         }
     }
+        lintOptions {
+            abortOnError false
+        }
 }
 
 dependencies {
@@ -40,4 +45,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+}
+
+publish {
+    userOrg = 'moushao'
+    groupId = 'com.moushao.tech'
+    artifactId = 'ffmpeg-4-android'
+    publishVersion = '1.0.0.beat'
+    desc = 'FFmpeg在Android平台的移植封装'
+    website = 'https://github.com/moushao/FFmpeg4Android'
 }
