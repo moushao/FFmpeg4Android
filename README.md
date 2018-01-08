@@ -83,7 +83,9 @@
 
 参考文章：
 [最简单的基于FFmpeg的移动端例子：Android HelloWorld](http://blog.csdn.net/leixiaohua1020/article/details/47008825/)
+
 [FFmpeg-Android拍摄压缩Demo](http://www.jianshu.com/p/fd748001ca53)（敲黑板）
+
 [仿微信视频拍摄UI, 基于ffmpeg的视频录制编辑(上)](http://www.jianshu.com/p/5a173841a828)（api>22的情况下无法找不到so文件，慎用）
 
 
