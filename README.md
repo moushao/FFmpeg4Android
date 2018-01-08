@@ -1,4 +1,4 @@
- [ ![Download](https://api.bintray.com/packages/moushao/maven/ffmpeg-4-android/images/download.svg) ](https://codeload.github.com/moushao/FFmpeg4Android/zip/master) [ ![Apk下载](https://img.shields.io/badge/APK%20%E4%B8%8B%E8%BD%BD-1.0.0-yellowgreen.svg)](https://raw.githubusercontent.com/moushao/FFmpeg4Android/master/ffmpeg.apk)  [ ![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)](https://bintray.com/moushao/maven/ffmpeg-4-android/_latestVersion)  
+ [ ![Download](https://img.shields.io/badge/Download-zip-brightgreen.svg) ](https://codeload.github.com/moushao/FFmpeg4Android/zip/master) [ ![Apk下载](https://img.shields.io/badge/APK%20%E4%B8%8B%E8%BD%BD-1.0.0-yellowgreen.svg)](https://raw.githubusercontent.com/moushao/FFmpeg4Android/master/ffmpeg.apk)  [ ![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)](https://bintray.com/moushao/maven/ffmpeg-4-android/_latestVersion)  
  
  
  ## How to use 
