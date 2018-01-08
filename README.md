@@ -1,7 +1,7 @@
 [ ![LastVersion](https://img.shields.io/badge/LastVersion-1.0.0beat-blue.svg)]() [ ![Download](https://img.shields.io/badge/Download-zip-brightgreen.svg) ](https://codeload.github.com/moushao/FFmpeg4Android/zip/master)  [ ![Apk下载](https://img.shields.io/badge/APK%20%E4%B8%8B%E8%BD%BD-1.0.0-yellowgreen.svg)](https://raw.githubusercontent.com/moushao/FFmpeg4Android/master/ffmpeg.apk)  [ ![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)](https://bintray.com/moushao/maven/ffmpeg-4-android/_latestVersion)  
  
  
- ## *How to use 
+ ## How to use 
  in your project build.gradle,add jecenter()
  
     buildscript {
@@ -14,13 +14,13 @@
  and then,in your module build.gradle add
  
     dependencies {
-          compile 'com.moushao.tech:ffmpeg-4-android:LastVersion'
+          compile 'com.moushao.tech:ffmpeg-4-android:1.0.0beat'
     }
    
 
  
  
- ## *The following is how to compile FFmpeg as a .so library on the Android platform
+ ## The following is how to compile FFmpeg as a .so library on the Android platform
 
 #### 本篇文章已授权微信公众号 [guolin_blog （郭霖）]()独家发布
 
