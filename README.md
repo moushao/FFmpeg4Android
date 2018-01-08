@@ -1,6 +1,26 @@
  [ ![Download](https://api.bintray.com/packages/moushao/maven/ffmpeg-4-android/images/download.svg) ](https://bintray.com/moushao/maven/ffmpeg-4-android/_latestVersion) [ ![Apk下载](https://img.shields.io/badge/APK%20%E4%B8%8B%E8%BD%BD-1.0.0-yellowgreen.svg)](https://raw.githubusercontent.com/moushao/FFmpeg4Android/master/ffmpeg.apk)  [ ![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)](https://bintray.com/moushao/maven/ffmpeg-4-android/_latestVersion)  
  
+ 
+ ## How to use 
+ in your project build.gradle,add jecenter()
+ 
+    buildscript {
+        repositories {
+        ...
+        jcenter()
+        ...
+    }
+    
+ and then,in your moudule build.gradle add
+ 
+    dependencies {
+          compile 'com.moushao.tech:ffmpeg-4-android:1.0.0.beat'
+    }
+   
 
+ 
+ 
+ ## 以下内容为FFmpeg在Android平台的移植教程
 ### 本篇文章已授权微信公众号 [guolin_blog （郭霖）]()独家发布
 
 #### 背景：
