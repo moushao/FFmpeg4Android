@@ -82,6 +82,7 @@
 十分感谢[reverse_Android](http://www.jianshu.com/u/575222264e2d)对此次集成的帮助和解答。
 
 参考文章：
+
 [最简单的基于FFmpeg的移动端例子：Android HelloWorld](http://blog.csdn.net/leixiaohua1020/article/details/47008825/)
 
 [FFmpeg-Android拍摄压缩Demo](http://www.jianshu.com/p/fd748001ca53)（敲黑板）
@@ -92,6 +93,6 @@
 
 [项目源码github传送门](https://github.com/moushao/FFmpeg4Android)
 
-碎碎念：诸君若是喜欢，请点个赞，谢谢！
+碎碎念：诸君若是喜欢，请star，谢谢！
 
 更多问题加群:**584275290**
