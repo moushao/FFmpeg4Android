@@ -51,7 +51,7 @@ publish {
     userOrg = 'moushao'
     groupId = 'com.moushao.tech'
     artifactId = 'ffmpeg-4-android'
-    publishVersion = '1.0.0.beat'
+    publishVersion = '1.0.1'
     desc = 'FFmpeg在Android平台的移植封装'
     website = 'https://github.com/moushao/FFmpeg4Android'
 }
